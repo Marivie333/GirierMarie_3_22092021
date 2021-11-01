@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    max-width: 1950px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 45px;
+    background-color: white;
+}
+
+.présentation{
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.présentation_localisation{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 229, 229);
+    box-shadow: 0 0 .5px rgba(0,0,0,.25);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.présentation_localisation i{
+    padding-top: 15px;
+}
+
+.présentation_ville{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+
+.présentation_texte{
+    height: 150px;
+    background-color:rgb(245, 244, 244);
+    text-align: center;
+    word-wrap: break-word;
+    padding: 20px;
+}
+
+.présentation_texte h1{
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.présentation_texte p{
+    padding-top: 20px;
+    font-size: 18px;
+    
+}
+
+.présentation_bouton{
+   /*  display: flex;
+    justify-content: center; 
+    align-items: center; */
+    width: 190px;
+    box-shadow: 5px 5px 5px 0.5px;
+    padding: 15px;
+    /* margin-left: 80px;  */
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    background-color: #FF79DA;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.présentation_bouton:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*     Fonctionnement     */
+
+
+.fonctionnement{
+    /* display: block; */
+    background-color: white;
+    height: auto;
+    margin: 40px 0 40px 10px;
+}
+
+.fonctionnement h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.fonctionnement_étape{
+   display: flex;
+   cursor: pointer;
+   word-wrap: break-word;
+    /* height: 60px; */
+    /* background-color: rgb(245, 244, 244); */
+}
+
+.fonctionnement_étape i{
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.fonctionnement_étape i:hover{
+    color:purple;
+}
+
+.fonctionnement_iconetext:hover{
+    transform: scale(1.05);
+}
+
+/* 
+.fonctionnement_iconetext i:hover{
+    color: purple;
+} */
+
+.fonctionnement_numéro{
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 25px;
+    width: 25px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.fonctionnement_iconetext{
+    display: flex;
+    justify-content: left;
+    font-weight: bold; 
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    box-shadow: 5px 5px 5px 0.5px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color:rgb(245, 244, 244); 
+    position: relative;
+
+}
+
+.fonctionnement_iconetext p{
+    padding-top: 12px;
+}
+
+
+
+
+
+/*    Liste restaurants     */
+
+.liste{
+    background-color: rgb(245, 244, 244);
+    display: block;
+
+}
+
+.liste h2{
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-bottom: -15px;
+}
+
+.liste_resto:hover{
+    transform: scale(1.05);
+}
+
+.liste_resto{
+    width: 90%;
+    background-color: white;
+    /* height: 20%; */
+    box-shadow: 10px 10px 10px 1px;
+    border-radius: 15px;
+    margin: 25px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.liste_resto img{
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+    border-radius: 15px 15px 0 0;
+}
+
+.resto_caption{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: auto;
+}
+
+.resto_text{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.resto-text h3{
+    font-weight: bold;
+    /* padding-bottom: 10px; */
+
+}
+
+
+.resto_coeur{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+/* .resto_coeur i{
+    width: 50px;
+    height: 50px;
+} */
+
+.resto_coeur:hover{
+    color: #FF79DA;
+    
+}
+
+
+.nouveau{
+    width: 90px;
+    height: 20px;
+    background-color: #99E2D0;
+    color: rgb(12, 100, 96);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 8px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+
+}
+
+
+
+/*    Footer    */
+
+footer{
+    height: auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    margin-top: 70px;
+    padding-bottom: 30px;
+
+}
+
+footer .logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.logo img{
+    height: 30px;
+    color: white;
+} 
+
+
+.liens{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.liens:hover{
+    color: #FF79DA;
+}
+
+.liens a:hover{
+    color: #FF79DA;
+}
+
+.liens_liens i{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.liens_liensmain i{
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 5px;
+}
+
+.liens_liensmain a{
+    color: white;
+}
+
+.liens_liens a{
+    color: white;
+}
+
+
+.liens_mentions{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.liens_mentions a{
+    color: white;
+}
+
+.liens_mentions a:hover{
+    color: #FF79DA;
+}
+
+
+.liens_contact{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.liens_contact a{
+    color: white;
+}
+
+.liens_contact a:hover{
+    color: #FF79DA;
+}
+
