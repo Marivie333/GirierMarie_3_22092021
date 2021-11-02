@@ -119,8 +119,6 @@ header{
    display: flex;
    cursor: pointer;
    word-wrap: break-word;
-    /* height: 60px; */
-    /* background-color: rgb(245, 244, 244); */
 }
 
 .fonctionnement_étape i{
@@ -169,7 +167,8 @@ header{
     margin-left: 20px;
     width: 70%;
     height: 30px;
-    box-shadow: 5px 5px 5px 0.5px;
+    box-shadow: 5px 5px 5px grey;
+    /* box-shadow: 5px 5px 5px 0.5px; */
     border-radius: 20px;
     padding-left: 30px;
     padding-top: 10px;
@@ -208,7 +207,8 @@ header{
     width: 90%;
     background-color: white;
     /* height: 20%; */
-    box-shadow: 10px 10px 10px 1px;
+    /* box-shadow: 10px 10px 10px 1px; */
+    box-shadow: 5px 5px 5px grey;
     border-radius: 15px;
     margin: 25px 20px;
     position: relative;
