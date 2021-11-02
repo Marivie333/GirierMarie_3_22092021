@@ -27,10 +27,10 @@ header{
 
 /*   Menu présentation   */
 
+
 #photo img{
     width: 100%;
     height: 25%;
-    background-repeat: no-repeat;
     z-index: 2;
     
 }
@@ -40,7 +40,7 @@ header{
     padding-top: 20px;
     padding-bottom: 50px;
     margin-top: -40px;
-    margin-bottom: -20px;
+    margin-bottom: -20px; 
     background-color: lightgrey;
     /* background-color: rgb(245, 244, 244); */
     position: relative;
@@ -50,14 +50,14 @@ header{
     height: auto;
 }
 
-.menu_présentation h2{
+/* .menu_présentation h2{
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 15px;
     margin: 20px; 
     text-align: left;
 
-} 
+}  */
 
 .menu_titre{
     display: flex;
@@ -77,14 +77,26 @@ header{
 /*    Entrée     */
 
 
-.menu_entrées{
+/* .menu_entrées{
     display: block;
     align-items: center;
     
-}
+} */
 
+
+.menu_entrées h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    margin: 20px; 
+    text-align: left;
+
+} 
 
 .entrées_plat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 95%;
     height: auto;
     background-color: white;
@@ -104,19 +116,32 @@ header{
  .entrées_plat p{
     font-size: 14px;
     margin-top: 5px;
-    
+}
 
+.entrées_prix{
+    padding-top: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
  }
 
- .entrées_prix{
-    display: flex;
- }
+
 
 
  /*    Plats principaux  */
 
 
+.menu_plats h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    margin: 20px; 
+} 
+
 .plats_principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 95%;
     height: auto;
     background-color: white;
@@ -141,11 +166,31 @@ header{
 }
 
 
+.principal_prix{
+    padding-top: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
 
 /*    Dessert     */
 
 
+
+.menu_desserts h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 15px;
+    margin: 20px; 
+}
+
 .desserts_plat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 95%;
     height: auto;
     background-color: white;
@@ -167,6 +212,13 @@ header{
     font-size: 14px;
     margin-top: 5px;
     
+}
+
+.desserts_prix{
+    padding-top: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
 }
 
 
