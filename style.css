@@ -242,18 +242,35 @@ header{
 
 
 .resto_coeur{
-    padding-right: 20px;
+    padding-right: 30px;
     padding-top: 10px;
+    position: relative;
 }
 
-/* .resto_coeur i{
-    width: 50px;
-    height: 50px;
-} */
+.resto_coeur .coeur_plein{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #FF79DA;
+}
 
-.resto_coeur:hover{
+.resto_coeur .coeur_vide{
+    position: absolute;
+    transition: opacity 1s;
+}
+
+.resto_coeur i{
+    font-size: 20px;
+} 
+
+.resto_coeur:hover .coeur_plein{
+    opacity: 1;
     color: #FF79DA;
     
+}
+
+.resto_coeur:hover .coeur_vide{
+    opacity: 0;
 }
 
 
