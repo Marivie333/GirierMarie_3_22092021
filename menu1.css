@@ -36,6 +36,10 @@ header{
 }
 
 .menu_présentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     border-radius: 20px 20px 0 0;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -50,14 +54,6 @@ header{
     height: auto;
 }
 
-/* .menu_présentation h2{
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-size: 15px;
-    margin: 20px; 
-    text-align: left;
-
-}  */
 
 .menu_titre{
     display: flex;
@@ -77,11 +73,6 @@ header{
 /*    Entrée     */
 
 
-/* .menu_entrées{
-    display: block;
-    align-items: center;
-    
-} */
 
 
 .menu_entrées h2{
@@ -258,7 +249,7 @@ header{
     box-shadow: 5px 5px 5px grey;
     padding: 15px;
     margin-top: 50px;
-    margin-left: 150px; 
+    /* margin-left: 150px;  */
     margin-bottom: 80px;
     border-radius: 25px;
     background-color: #FF79DA;
