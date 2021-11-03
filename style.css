@@ -124,7 +124,7 @@ header{
 .fonctionnement_étape i{
     margin-right: 40px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .fonctionnement_étape i:hover{
@@ -289,13 +289,13 @@ footer{
 }
 
 footer .logo{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
 
 .logo img{
-    height: 30px;
+    height: 25px;
     color: white;
 } 
 
