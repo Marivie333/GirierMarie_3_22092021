@@ -92,10 +92,12 @@ header{
     color: white;
     font-weight: bold;
     text-align: center;
+    transition: transform 1s;
 }
 
 .présentation_bouton:hover{
     transform: scale(1.05);
+    opacity: 0.8;
     cursor: pointer;
 }
 
