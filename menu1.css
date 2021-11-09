@@ -119,6 +119,10 @@ header{
 }
 
 
+.entrées_caption{
+    width: 200px;
+}
+
 .entrées_plat h3{
     font-size: 17px;
     margin-top: 5px;
