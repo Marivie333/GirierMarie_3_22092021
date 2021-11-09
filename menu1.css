@@ -128,6 +128,9 @@ header{
  .entrées_plat p{
     font-size: 14px;
     margin-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .entrées_prix{
