@@ -116,6 +116,7 @@ header{
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -145,12 +146,31 @@ header{
 }
 
 
+.entrées_plat:hover >.entrées_prix{
+    padding-right: 60px;
+}
+
+.entrées_plat:hover >.bouton_prix{
+    visibility: visible;
+    
+
+}
+
+.entrées_plat:hover >.bouton_prix i{
+    animation: check 0.7s forwards;
+}
+
+
+@keyframes check{
+    0%{transform: rotate(0deg)};
+    100%{transform: rotate(360deg)};
+}
+
 
 .bouton_prix{
     background-color: #6aaf9e;
     color: white;
     height: 67px;
-    /* width: 55px; */
     width: 12%;
     border-radius: 0 15px 15px 0;
     display: flex;
@@ -159,14 +179,15 @@ header{
     position: absolute;
     right: 0;
     top: 0;
-    /* overflow: hidden; */
-    /* visibility: hidden; */
+    visibility: hidden; 
 }
 
 .bouton_prix i{
     font-size: 20px;
     
 }
+
+
 
 
 
