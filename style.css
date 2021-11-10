@@ -92,7 +92,7 @@ header{
     color: white;
     font-weight: bold;
     text-align: center;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .présentation_bouton:hover{
@@ -216,6 +216,7 @@ header{
     margin: 25px 20px;
     position: relative;
     z-index: 1;
+    transition: transform 0.5s;
 }
 
 .liste_resto img{
@@ -325,10 +326,12 @@ footer .logo{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .liens:hover{
     color: #FF79DA;
+   
 }
 
 .liens a:hover{
