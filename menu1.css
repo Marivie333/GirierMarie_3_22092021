@@ -57,7 +57,7 @@ header{
     margin-top: -40px;
     margin-bottom: -20px; 
     background-color: lightgrey;
-    /* background-color: rgb(245, 244, 244); */
+
     position: relative;
     top: -20px;
     z-index: 1;
@@ -128,16 +128,21 @@ header{
     box-shadow: 5px 5px 5px grey;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 
 .entrées_caption{
     width: 200px;
+    
 }
 
 .entrées_plat h3{
     font-size: 17px;
     margin-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     
  }
 
@@ -154,36 +159,51 @@ header{
     padding-right: 15px;
     font-weight: bold;
     font-size: 13px;
+    transition: all 1s;
 }
 
 
 
 .entrées_plat{
     transform: translateX(0%);
+    /* transform-origin: left; */
 
 
 }
 .entrées_plat:hover >.entrées_prix{
-    padding-right: 60px;
-    transition: transform 0.5s ease;
+    padding-right: 100px;
+    transition: all 1s;
 }
 
 .entrées_plat:hover >.bouton_prix{
     transition: transform 1s ease;
-    transform: translateX(-10%);
-    visibility: visible;
+    /* visibility: visible; */
+    width: 60px;
+    transition: all 1s;
     
 
 }
 
 .entrées_plat:hover >.bouton_prix i{
-    animation: check 0.7s forwards;
+    animation: check 0.7s both;
+    animation-direction: alternate;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 
+
+
 @keyframes check{
-    0%{transform: rotate(0deg)};
-    100%{transform: rotate(360deg)};
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+        
+    }  
+    
 }
 
 
@@ -191,7 +211,7 @@ header{
     background-color: #6aaf9e;
     color: white;
     height: 67px;
-    width: 12%;
+    width: 0px;
     border-radius: 0 15px 15px 0;
     display: flex;
     justify-content: center;
@@ -199,11 +219,15 @@ header{
     position: absolute;
     right: 0;
     top: 0;
-    visibility: hidden; 
+    /* visibility: hidden;  */
+    transition: all 1s;
+    
 }
 
 .bouton_prix i{
     font-size: 20px;
+    opacity: 0;
+    transition: opacity 1s;
     
 }
 
