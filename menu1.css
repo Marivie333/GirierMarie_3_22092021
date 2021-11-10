@@ -25,6 +25,17 @@ header{
 }
 
 
+.flèche{
+    position: relative;
+    top: 6px;
+    left: -100px;
+}
+
+.flèche i{
+    font-size: 25px;
+}
+
+
 /*   Menu présentation   */
 
 
@@ -146,11 +157,20 @@ header{
 }
 
 
+
+.entrées_plat{
+    transform: translateX(0%);
+
+
+}
 .entrées_plat:hover >.entrées_prix{
     padding-right: 60px;
+    transition: transform 0.5s ease;
 }
 
 .entrées_plat:hover >.bouton_prix{
+    transition: transform 1s ease;
+    transform: translateX(-10%);
     visibility: visible;
     
 
