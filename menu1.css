@@ -265,7 +265,7 @@ header{
 
 }
 
-.plats_principal{
+/* .plats_principal{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -299,13 +299,15 @@ header{
     font-weight: bold;
     font-size: 13px;
 }
-
+ */
 
 
 
 /*    Dessert     */
 
-
+.menu_desserts{
+    width: 100%;
+}
 
 .menu_desserts h2{
     text-transform: uppercase;
@@ -315,7 +317,9 @@ header{
     padding-top: 20px;
 }
 
-.desserts_plat{
+
+
+/* .desserts_plat{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -347,7 +351,7 @@ header{
     padding-right: 15px;
     font-weight: bold;
     font-size: 13px;
-}
+} */
 
 
 
