@@ -114,7 +114,7 @@ header{
 
 
 
-.entrées_plat{
+.menus{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -132,12 +132,12 @@ header{
 }
 
 
-.entrées_caption{
+.menus_caption{
     width: 200px;
     
 }
 
-.entrées_plat h3{
+.menus h3{
     font-size: 17px;
     margin-top: 5px;
     text-overflow: ellipsis;
@@ -146,7 +146,7 @@ header{
     
  }
 
- .entrées_plat p{
+ .menus p{
     font-size: 14px;
     margin-top: 5px;
     text-overflow: ellipsis;
@@ -154,7 +154,7 @@ header{
     overflow: hidden;
 }
 
-.entrées_prix{
+.menus_prix{
     padding-top: 30px;
     padding-right: 15px;
     font-weight: bold;
@@ -164,18 +164,18 @@ header{
 
 
 
-.entrées_plat{
+.menus{
     transform: translateX(0%);
     /* transform-origin: left; */
 
 
 }
-.entrées_plat:hover >.entrées_prix{
+.menus:hover >.menus_prix{
     padding-right: 100px;
     transition: all 1s;
 }
 
-.entrées_plat:hover >.bouton_prix{
+.menus:hover >.bouton_prix{
     transition: transform 1s ease;
     /* visibility: visible; */
     width: 60px;
@@ -184,7 +184,7 @@ header{
 
 }
 
-.entrées_plat:hover >.bouton_prix i{
+.menus:hover >.bouton_prix i{
     animation: check 0.7s both;
     animation-direction: alternate;
     opacity: 1;
