@@ -417,10 +417,12 @@ footer .logo{
 
 .liens:hover{
     color: #FF79DA;
+    transition: color 0.5s;
 }
 
 .liens a:hover{
     color: #FF79DA;
+    transition: color 0.5s;
 }
 
 .liens_liens i{
@@ -456,6 +458,7 @@ footer .logo{
 
 .liens_mentions a:hover{
     color: #FF79DA;
+    transition: color 0.5s;
 }
 
 
@@ -470,5 +473,6 @@ footer .logo{
 
 .liens_contact a:hover{
     color: #FF79DA;
+    transition: color 0.5s;
 }
 
