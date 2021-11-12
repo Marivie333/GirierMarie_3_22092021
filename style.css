@@ -133,14 +133,6 @@ header{
     margin-top: 12px;
 }
 
-/* .fonctionnement_étape i:hover{
-    color:purple;
-} */
-
-.fonctionnement_iconetext:hover{
-    transform: scale(1.05);
-    color: #9356DC;
-}
 
 
 .fonctionnement_numéro{
@@ -177,8 +169,15 @@ header{
     padding-top: 10px;
     background-color:rgb(245, 244, 244); 
     position: relative;
+    transition: transform 0.5s;
 
 }
+
+.fonctionnement_iconetext:hover{
+    transform: scale(1.05);
+    color: #9356DC;
+}
+
 
 .fonctionnement_iconetext p{
     padding-top: 12px;
@@ -275,7 +274,7 @@ header{
 
 .resto_coeur:hover .coeur_vide{
     opacity: 0;
-}
+} 
 
 
 .nouveau{
