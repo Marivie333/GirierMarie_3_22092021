@@ -361,15 +361,22 @@ header{
     /* margin-left: 150px;  */
     margin-bottom: 80px;
     border-radius: 25px;
-    background-color: #FF79DA;
+    /* background-color: #FF79DA; */
+    background: rgb(255,121,218);
+    background: -moz-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
+    background: -webkit-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
+    background: linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff79da",endColorstr="#9356dc",GradientType=1);
     color: white;
     font-weight: bold;
     text-align: center;
+    transition: transform 0.5s;
 
 }
 
 .menu_bouton:hover{
     transform: scale(1.05);
+    opacity: 0.8;
     cursor: pointer;
 }
 
