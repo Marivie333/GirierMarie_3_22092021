@@ -173,16 +173,24 @@ header{
 
 }
 
-.fonctionnement_iconetext:hover{
+/* .fonctionnement_iconetext:hover{
     transform: scale(1.05);
     color: #9356DC;
-}
+} */
 
 
 .fonctionnement_iconetext p{
     padding-top: 12px;
 }
 
+.fonctionnement_étape:hover >.fonctionnement_iconetext i{
+    transform: scale(1.05);
+    color: #9356DC;
+}
+
+.fonctionnement_étape:hover{
+    transform: scale(1.05)
+}
 
 
 
