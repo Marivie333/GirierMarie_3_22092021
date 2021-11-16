@@ -184,7 +184,6 @@ header{
 }
 
 .fonctionnement_étape:hover >.fonctionnement_iconetext i{
-    transform: scale(1.05);
     color: #9356DC;
 }
 
