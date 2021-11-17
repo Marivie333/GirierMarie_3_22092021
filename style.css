@@ -18,12 +18,42 @@ body{
 /*     Loader     */
 
 .loader_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #fff;
+    position: fixed;
+    animation: loading 4s ease-in-out forwards;
+    
     
 }
 
+@keyframes loading{
+    0%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    animation: opac 1.5s ease-in-out 4s forwards;
+}
+
+@keyframes opac{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 .loader{
     display: flex;
@@ -34,6 +64,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0; 
+    
 }
 
 
@@ -54,11 +85,10 @@ body{
     to{
         width: 20px;
         height: 20px;
-        
         transform: translate3d(0, -16px, 0);   
-        -webkit-transform: translate3d(0, -16px, 0)    ;
-        -moz-transform: translate3d(0, -16px, 0)    ;
-        -ms-transform: translate3d(0, -16px, 0)    ;
+        -webkit-transform: translate3d(0, -16px, 0);
+        -moz-transform: translate3d(0, -16px, 0);
+        -ms-transform: translate3d(0, -16px, 0);
     }
 }
 
@@ -73,20 +103,9 @@ body{
 }
 
 
-@keyframes opac{
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-}
 
-/* .loader_gone .loader > span{
-    position: absolute;
-    animation: opac 4s forwards;
-}
- */
+
+
 
 /*     Page d'accueil      */
 
@@ -323,6 +342,10 @@ header{
 }
 
 
+
+/*     Animation coeur     */
+
+
 .resto_coeur{
     padding-right: 30px;
     padding-top: 10px;
@@ -333,7 +356,7 @@ header{
     position: absolute;
     opacity: 0;
     transition: opacity 1s;
-    color: #FF79DA;
+    color: #FF79DA;  
 }
 
 .resto_coeur .coeur_vide{
@@ -347,13 +370,18 @@ header{
 
 .resto_coeur:hover .coeur_plein{
     opacity: 1;
-    color: #FF79DA;
+    color: #FF79DA; 
     
 }
 
 .resto_coeur:hover .coeur_vide{
     opacity: 0;
 } 
+
+
+
+
+/*     Etiquette nouveau     */
 
 
 .nouveau{
