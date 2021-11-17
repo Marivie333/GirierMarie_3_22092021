@@ -14,6 +14,83 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*     Loader     */
+
+.loader_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+
+
+.loader > span{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    background-color: rgb(255,121,218);
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 1;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce{
+
+    to{
+        width: 20px;
+        height: 20px;
+        
+        transform: translate3d(0, -16px, 0);   
+        -webkit-transform: translate3d(0, -16px, 0)    ;
+        -moz-transform: translate3d(0, -16px, 0)    ;
+        -ms-transform: translate3d(0, -16px, 0)    ;
+    }
+}
+
+.loader > span:nth-child(2){
+    background-color: #9356DC;
+    animation-delay: 0.2s;
+}
+
+.loader > span:nth-child(3){
+    background-color: #99E2D0;;
+    animation-delay: 0.4s;
+}
+
+
+@keyframes opac{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/* .loader_gone .loader > span{
+    position: absolute;
+    animation: opac 4s forwards;
+}
+ */
+
+/*     Page d'accueil      */
+
+
 header{
     display: flex;
     justify-content: center;
@@ -172,11 +249,6 @@ header{
     transition: transform 0.5s;
 
 }
-
-/* .fonctionnement_iconetext:hover{
-    transform: scale(1.05);
-    color: #9356DC;
-} */
 
 
 .fonctionnement_iconetext p{
