@@ -23,7 +23,7 @@ body{
     z-index: 100;
     background-color: #fff;
     position: fixed;
-    animation: loading 4s ease-in-out forwards;
+    animation: loading 3.5s ease-in-out forwards;
     
     
 }
@@ -43,7 +43,7 @@ body{
     height: 100%;
     z-index: 1;
     opacity: 1;
-    animation: opac 1.5s ease-in-out 4s forwards;
+    animation: opac 1.5s ease-in-out 3.5s forwards;
 }
 
 @keyframes opac{

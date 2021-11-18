@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -148,24 +149,24 @@ header{
 .menus{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 90%;
     height: 67px;
     background-color: white;
     margin: 15px;
-    padding: 10px;
+    /* padding: 10px; */
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
     /* position: relative; */
     cursor: pointer;
-    overflow: hidden; 
+    overflow: hidden;  
     /* transform: translateX(0%); */
 }
 
 
 .menus_caption{
-    width: 250px;
+    width: 100%;
     
 }
  
@@ -192,7 +193,7 @@ header{
     padding-right: 15px;
     font-weight: bold;
     font-size: 13px;
-    transition: all 1s;
+    /* transition: all 1s; */
 }
 
 .bouton_prix{
@@ -200,6 +201,7 @@ header{
     color: white;
     height: 67px;
     width: 0px;
+    min-width: 0px;
     border-radius: 0 15px 15px 0;
     display: flex;
     justify-content: center;
@@ -221,19 +223,17 @@ header{
 
 
 
-.menus:hover >.menus_prix{
+/* .menus:hover >.menus_prix{
     padding-right: 100px;
     transition: all 1s;
-}
+} */
 
 .menus:hover >.bouton_prix{
-    transition: transform 1s ease;
+    /* transition: transform 1s ease; */
     /* visibility: visible; */
     width: 60px;
-    height: 67px;
+    min-width: 60px;
     transition: all 1s;
-    
-
 }
 
 .menus:hover >.bouton_prix i{
@@ -242,7 +242,6 @@ header{
     opacity: 1;
     transition: opacity 1s;
 }
-
 
 
 
@@ -255,7 +254,6 @@ header{
         transform: rotate(360deg);
         
     }  
-    
 }
 
 
@@ -265,7 +263,7 @@ header{
 /*    Animations menu apparaissant progressivement     */
 
 
-#menu1{
+.menu1{
     animation: slidein1 2s ease-out forwards;
 }
 
@@ -285,7 +283,7 @@ header{
 }
 }
 
-#menu2{
+.menu2{
     animation: slidein2 2s ease-out 0.5s forwards;
 }
 
@@ -305,7 +303,7 @@ header{
 }
 }
 
-#menu3{
+.menu3{
     animation: slidein3 2s ease-out 1s forwards;
 }
 
