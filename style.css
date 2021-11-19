@@ -180,7 +180,7 @@ header{
     margin-top: 10px;
     margin-bottom: 60px;
     border-radius: 25px;
-    background: rgb(255,121,218);
+    /* background: rgb(255,121,218); */
     background: -moz-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
     background: -webkit-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
     background: linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
@@ -206,15 +206,18 @@ header{
 
 
 .fonctionnement{
-    /* display: block; */
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
     height: auto;
-    margin: 40px 0 40px 10px;
+    background-color: white;
+    margin: 40px auto;
 }
 
 .fonctionnement h2{
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .fonctionnement_étape{
@@ -282,7 +285,12 @@ header{
     transform: scale(1.05)
 }
 
-
+/* 
+@media screen (min-width: 256px) and (max-width: 375px){
+    .fonctionnement_iconetext p{
+        font-size: 11px;
+    }
+} */
 
 
 /*    Liste restaurants     */
@@ -356,7 +364,11 @@ header{
     position: absolute;
     opacity: 0;
     transition: opacity 1s;
-    color: #FF79DA;  
+    background: linear-gradient(#9656dc, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #FF79DA;   */
 }
 
 .resto_coeur .coeur_vide{
@@ -370,7 +382,10 @@ header{
 
 .resto_coeur:hover .coeur_plein{
     opacity: 1;
-    color: #FF79DA; 
+    background: linear-gradient(#9656dc, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
     
 }
 
