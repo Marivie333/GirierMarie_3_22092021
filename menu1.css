@@ -25,16 +25,24 @@ header{
     background-color: white;
 }
 
+#logo{
+    margin: 0 auto;
+}
+
 
 .flèche{
-    position: relative;
+    margin-left: 25px;
+    /* position: relative;
     top: 6px;
-    left: -90px;
+    left: -90px; */
 }
 
 .flèche i{
     font-size: 25px;
+    padding-top: 8px;
 }
+
+
 
 
 /*   Menu présentation   */
