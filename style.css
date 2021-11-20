@@ -282,15 +282,16 @@ header{
 }
 
 .fonctionnement_étape:hover{
-    transform: scale(1.05)
+    transform: scale(1.05);
+    transition: transform 0.5s;
 }
 
-/* 
-@media screen (min-width: 256px) and (max-width: 375px){
+
+@media screen and (max-width: 375px){
     .fonctionnement_iconetext p{
         font-size: 11px;
     }
-} */
+} 
 
 
 /*    Liste restaurants     */
