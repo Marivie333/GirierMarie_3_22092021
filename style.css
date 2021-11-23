@@ -337,16 +337,23 @@ header{
 
 
     .liste1{
-        display: flex;
+        /* display: flex;
         flex-direction: row;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr 1fr;
 
     }
 
     .liste_resto{
         width: 200px;
     }
+
+
+
+
 
 }
 
