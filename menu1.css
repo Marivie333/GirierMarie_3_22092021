@@ -93,7 +93,11 @@ header{
     position: absolute;
     opacity: 0;
     transition: opacity 1s;
-    color: #FF79DA;
+    background: linear-gradient(#9656dc, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #FF79DA; */
 }
 
 .titre_coeur .coeur_vide{
@@ -107,7 +111,11 @@ header{
 
 .titre_coeur:hover .coeur_plein{
     opacity: 1;
-    color: #FF79DA;
+    background: linear-gradient(#9656dc, #ff79da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #FF79DA; */
     
 }
 
@@ -425,14 +433,27 @@ header{
     width: 100%;
 }
 
+
 .menu_desserts h2{
     text-transform: uppercase;
-    text-decoration: underline;
     font-size: 15px;
     margin: 20px; 
+    padding-bottom: 7px;
     padding-top: 20px;
-}
+    text-align: left;
+    position: relative;
 
+} 
+
+.menu_desserts h2::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: #6aaf9e;
+    position: absolute;
+    bottom: 0%; left: 0%;
+
+}
 
 
 
