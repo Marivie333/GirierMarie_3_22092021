@@ -115,7 +115,9 @@ header{
     opacity: 0;
 } 
 
-@media screen and (min-width: 790px){
+
+
+/* @media screen and (min-width: 790px){
 
     header{
         height: 80px;
@@ -156,7 +158,9 @@ header{
 
 } 
 
+ */
 
+ 
 
 /*    Entrée     */
 
@@ -192,14 +196,15 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    /* max-width: 90%; */
     height: 67px;
     background-color: white;
-    margin: 10px auto;
+    margin: 10px auto; 
     /* padding: 10px; */
     /* box-sizing: border-box; */
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
-    position: relative; 
+    /* position: relative;  */
     cursor: pointer;
     overflow: hidden;   
     /* transform: translateX(0%); */
@@ -207,7 +212,9 @@ header{
 
 
 .menus_caption{
-    min-width: 200px;
+    width: 75%; 
+    min-width: 200px;  
+    /* min-width: 200px; */
     padding-left: 20px;
     
 }
@@ -231,15 +238,14 @@ header{
 }
 
 .menus_prix{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    width: 60px;
-    height: 67px;
-    padding-bottom: 15px;
-    /* padding-top: 30px; */
-    padding-right: 15px; 
-    /* margin-right: 0; */
+    align-items: flex-end; */
+    /* width: 60px;
+    height: 67px; */
+    /* padding-bottom: 15px; */
+    /* margin-right: -60px; */
+    padding-right: 25px;  
     font-weight: bold;
     font-size: 13px;
     transition: all 1s ease-in-out; 
@@ -248,16 +254,16 @@ header{
 .bouton_prix{
     background-color: #6aaf9e;
     color: white;
-    height: 67px;
+    height: 100%; 
     width: 0px;
-    min-width: 0px;
+    /* min-width: 0px; */
     border-radius: 0 15px 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    /* position: absolute;
     right: 0;
-    top: 0;
+    top: 0; */
     transition: all 1s;
     opacity: 1;
     
@@ -276,20 +282,20 @@ header{
 
 
 
-.menus:hover >.menus_prix{
-    width: 150px;
+/* .menus:hover >.menus_prix{
+    /* width: 150px; */
    
     /* margin-right: 100px; */
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
     /* padding-right: 100px;  */
     /* transition: all 1s; */
-}  
+
 
 .menus:hover >.bouton_prix{
     /* transition: transform 1s ease; */
-    visibility: visible; 
+    /* visibility: visible;  */
     width: 60px;
-    min-width: 60px;
+    /* min-width: 60px; */
     transition: all 1s;
 }
 
