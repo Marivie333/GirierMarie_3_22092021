@@ -125,7 +125,7 @@ header{
 
 
 
-/* @media screen and (min-width: 790px){
+@media screen and (min-width: 790px){
 
     header{
         height: 80px;
@@ -166,7 +166,7 @@ header{
 
 } 
 
- */
+ 
 
  
 
@@ -204,7 +204,6 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    /* max-width: 90%; */
     height: 67px;
     background-color: white;
     margin: 10px auto; 
@@ -348,43 +347,13 @@ header{
 }
 
 .menu2{
-    animation: slidein2 2s ease-out 0.5s forwards;
+    animation: slidein1 2s ease-out 0.5s forwards;
 }
 
-@keyframes slidein2{
-0%{
-    transform: translateY(15px);
-    opacity: 0;
-}
 
-50%{
-    opacity: 0.5;
-}
-
-100%{
-    transform: translateY(0);
-    opacity: 1;
-}
-}
 
 .menu3{
-    animation: slidein3 2s ease-out 1s forwards;
-}
-
-@keyframes slidein3{
-0%{
-    transform: translateY(15px);
-    opacity: 0;
-}
-
-50%{
-    opacity: 0.5;
-}
-
-100%{
-    transform: translateY(0);
-    opacity: 1;
-}
+    animation: slidein1 2s ease-out 1s forwards;
 }
 
 
