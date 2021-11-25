@@ -74,12 +74,12 @@ header{
 .menu_titre{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 95%;
     font-family: 'Shrikhand', sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     margin-left: 30px;
     padding: 20px 0;
-    word-break: wrap;
 }
 
 
@@ -107,7 +107,7 @@ header{
 }
 
 .titre_coeur i{
-    font-size: 25px;
+    font-size: 20px;
 } 
 
 .titre_coeur:hover .coeur_plein{
