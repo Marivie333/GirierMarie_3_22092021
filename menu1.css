@@ -31,7 +31,7 @@ header{
 
 
 .flèche{
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .flèche i{
@@ -57,12 +57,12 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20px 20px 0 0;
+    border-radius: 50px 50px 0 0;
     padding-top: 20px;
     padding-bottom: 50px;
     margin-top: -40px;
     margin-bottom: -20px; 
-    background-color: lightgrey;
+    background-color: rgb(245, 244, 244);
     position: relative;
     top: -20px;
     z-index: 1;
@@ -77,15 +77,15 @@ header{
     width: 95%;
     font-family: 'Shrikhand', sans-serif;
     font-size: 21px;
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 20px 0;
 }
 
 
 
 .titre_coeur{
-    margin-right: 30px;
-    margin-top: 15px;
+    margin-right: 55px;
+    margin-top: 11px;
     position: relative;
 }
 
@@ -97,7 +97,7 @@ header{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* color: #FF79DA; */
+    
 }
 
 .titre_coeur .coeur_vide{
@@ -106,7 +106,7 @@ header{
 }
 
 .titre_coeur i{
-    font-size: 20px;
+    font-size: 25px;
 } 
 
 .titre_coeur:hover .coeur_plein{
@@ -115,7 +115,7 @@ header{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* color: #FF79DA; */
+    
     
 }
 
@@ -215,14 +215,12 @@ header{
     /* position: relative;  */
     cursor: pointer;
     overflow: hidden;   
-    /* transform: translateX(0%); */
 }
 
 
 .menus_caption{
     width: 75%; 
     min-width: 200px;  
-    /* min-width: 200px; */
     padding-left: 20px;
     
 }
@@ -230,6 +228,7 @@ header{
  
 .menus_caption h3{
     font-size: 17px;
+    font-weight: bold;
     margin: 8px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -238,7 +237,7 @@ header{
  }
 
  .menus_caption p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -252,10 +251,11 @@ header{
     /* width: 60px;
     height: 67px; */
     /* padding-bottom: 15px; */
-    /* margin-right: -60px; */
-    padding-right: 25px;  
+    margin-right: -40px;  
+    margin-bottom: -25px;
+    padding-right: 50px; 
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
     transition: all 1s ease-in-out; 
 }
 
@@ -264,14 +264,10 @@ header{
     color: white;
     height: 100%; 
     width: 0px;
-    /* min-width: 0px; */
     border-radius: 0 15px 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    right: 0;
-    top: 0; */
     transition: all 1s;
     opacity: 1;
     
@@ -300,10 +296,7 @@ header{
 
 
 .menus:hover >.bouton_prix{
-    /* transition: transform 1s ease; */
-    /* visibility: visible;  */
     width: 60px;
-    /* min-width: 60px; */
     transition: all 1s;
 }
 
