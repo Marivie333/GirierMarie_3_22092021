@@ -170,17 +170,12 @@ header{
 }
 
 .présentation_bouton{
-   /*  display: flex;
-    justify-content: center; 
-    align-items: center; */
     width: 190px;
     box-shadow: 5px 5px 5px grey;
     padding: 15px;
-    /* margin-left: 80px;  */
     margin-top: 10px;
     margin-bottom: 60px;
     border-radius: 25px;
-    /* background: rgb(255,121,218); */
     background: -moz-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
     background: -webkit-linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
     background: linear-gradient(176deg, rgba(255,121,218,1) 10%, rgba(147,86,220,1) 54%);
@@ -342,9 +337,6 @@ header{
         margin-right: 10px;
     }
 
-    .fonctionnement-iconetext p{
-    
-    }
 
 
     .liste{
@@ -565,13 +557,13 @@ footer .logo{
 }
 
 .liens:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
    
 }
 
 .liens a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
@@ -607,7 +599,7 @@ footer .logo{
 }
 
 .liens_mentions a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
@@ -622,7 +614,7 @@ footer .logo{
 }
 
 .liens_contact a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
