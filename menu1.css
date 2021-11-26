@@ -197,12 +197,10 @@ header{
     .menus_caption{
         min-width: 50%; 
         /* min-width: 200px;   */
-        
-        
-    }
+        }
      
-
 } 
+
 
 /* @media screen and (min-width: 1060px){
 
@@ -416,6 +414,7 @@ header{
 }
 }
 
+
 .menu2{
     animation: slidein1 2s ease-out 0.5s forwards;
 }
@@ -426,6 +425,10 @@ header{
     animation: slidein1 2s ease-out 1s forwards;
 }
 
+
+.menu4{
+    animation: slidein1 2s ease-out 1.5s forwards;
+}
 
 
 
