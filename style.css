@@ -223,7 +223,7 @@ header{
 .fonctionnement_étape{
    display: flex;
    cursor: pointer;
-   word-wrap: break-word;
+
 }
 
 .fonctionnement_étape i{
@@ -319,7 +319,7 @@ header{
         width: 100%;
         height: auto;
         background-color: white;
-        /* margin: 10px;  */
+        margin-left: -55px;
     }
 
     .fonctionnement h2{
@@ -333,6 +333,8 @@ header{
     }
 
     .fonctionnement_iconetext{
+        display: flex;
+        justify-content: space-around;
         width: 100%;
         height: auto;
         padding-bottom: 10px;
