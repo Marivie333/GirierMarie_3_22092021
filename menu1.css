@@ -535,6 +535,7 @@ footer{
     flex-direction: column;
     background-color: rgb(58, 56, 56);
     color: white;
+    font-weight: bold;
     margin-top: 0;
     padding-bottom: 30px;
 
