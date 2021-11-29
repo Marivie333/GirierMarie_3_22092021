@@ -196,36 +196,12 @@ header{
 
     .menus_caption{
         min-width: 50%; 
-        /* min-width: 200px;   */
         }
      
 } 
 
 
-/* @media screen and (min-width: 1060px){
 
-    .cartes{
-        max-width: ;
-    }
-
-    .menu_entrées{
-        max-width: 30%;
-    }
-
-    .menu_plats{
-        max-width: 30%;
-    }
-
-    .menu_desserts{
-        max-width: 30%;
-    }
-
-    .menus{
-        width: 100%;
-    }
-
-
-} */
 
 /*    Fin des Media queries    */
 
@@ -561,12 +537,12 @@ footer .logo{
 }
 
 .liens:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
 .liens a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
@@ -602,7 +578,7 @@ footer .logo{
 }
 
 .liens_mentions a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
@@ -617,7 +593,7 @@ footer .logo{
 }
 
 .liens_contact a:hover{
-    color: #FF79DA;
+    color: #9356DC;
     transition: color 0.5s;
 }
 
